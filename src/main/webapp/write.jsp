@@ -7,7 +7,7 @@
 <title>상품 등록 페이지</title>
 </head>
 <body>
-	<form action="/mvc/write-ok.product" method="post">
+	<form action="/mvc/write-ok.post" method="post">
 		<div>
 			<span>상품명</span>
 			<input name="productName" />

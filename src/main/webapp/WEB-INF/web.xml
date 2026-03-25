@@ -19,4 +19,54 @@
   	<servlet-name>ProductFrontController</servlet-name>
   	<url-pattern>*.product</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>PostFrontController</servlet-name>
+  	<servlet-class>com.app.post.PostFrontController</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PostFrontController</servlet-name>
+  	<url-pattern>*.post</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>PostList</servlet-name>
+  	<jsp-file>/postList.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PostList</servlet-name>
+  	<url-pattern>/postList</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>PostWrite</servlet-name>
+  	<jsp-file>/postWrite.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PostWrite</servlet-name>
+  	<url-pattern>/postWrite</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  	<servlet-name>PostRead</servlet-name>
+  	<jsp-file>/postRead.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PostRead</servlet-name>
+  	<url-pattern>/postRead</url-pattern>
+  </servlet-mapping>
+  
+        <servlet>
+  	<servlet-name>PostUpdate</servlet-name>
+  	<jsp-file>/postUpdate.jsp</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>PostUpdate</servlet-name>
+  	<url-pattern>/postUpdate</url-pattern>
+  </servlet-mapping>
 </web-app>

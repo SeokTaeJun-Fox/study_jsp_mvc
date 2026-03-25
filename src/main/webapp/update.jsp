@@ -13,7 +13,12 @@
 	ProductVO product = (ProductVO)request.getAttribute("product");
 %>
 
-	<form action="/mvc/write-ok.product" method="post">
+	<form action="/mvc/update-ok.product" method="post">
+			<input 
+		name="id" placeholder="상품명"
+		type="hidden"
+		value="<%=product.getId() %>"
+		/>
 		<div>
 			<span>상품명</span>
 			<input name="productName" value="<%=product.getProductName() %>" />
